@@ -2,9 +2,11 @@
 import React, { useEffect } from 'react';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
+import AboutSection from '@/components/AboutSection';
 import LocationsSection from '@/components/LocationsSection';
 import ContactSection from '@/components/ContactSection';
 import SpecialtiesSection from '@/components/SpecialtiesSection';
+import ReviewsSection from '@/components/ReviewsSection';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -34,9 +36,11 @@ const Index = () => {
       <Header />
       <main>
         <HeroSection />
+        <AboutSection />
+        <SpecialtiesSection />
+        <ReviewsSection />
         <LocationsSection />
         <ContactSection />
-        <SpecialtiesSection />
       </main>
       <Footer />
     </div>
