@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { MapPin, Phone, Mail, Facebook, Instagram, WhatsApp } from 'lucide-react';
+import { MapPin, Phone, Mail, Facebook, Instagram, MessageCircle } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -22,7 +22,7 @@ const Footer = () => {
           <div>
             <h4 className="text-xl font-semibold mb-4">Contacto</h4>
             <div className="flex items-center mb-3">
-              <WhatsApp className="w-5 h-5 mr-2" />
+              <MessageCircle className="w-5 h-5 mr-2" />
               <a 
                 href="https://wa.me/541127756496" 
                 target="_blank" 
