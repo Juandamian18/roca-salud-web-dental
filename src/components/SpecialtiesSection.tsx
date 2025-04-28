@@ -1,7 +1,7 @@
 
 import React from 'react';
 import SpecialtyCard from './SpecialtyCard';
-import { Activity, Heart, Flower2, Stethoscope, RadioTower, Virus, Tooth, Droplets, Bone, Syringe, Flask } from 'lucide-react';
+import { Activity, Heart, Flower2, Stethoscope, RadioTower, ThermometerSnowflake, Sparkles, Droplets, Bone, Syringe, TestTube } from 'lucide-react';
 
 const SpecialtiesSection = () => {
   const specialties = [
@@ -10,13 +10,13 @@ const SpecialtiesSection = () => {
     { name: "Terapia Alternativa", icon: Flower2 },
     { name: "Urología", icon: Stethoscope },
     { name: "Radiografía", icon: RadioTower },
-    { name: "Alergista", icon: Virus },
-    { name: "Odontología Pediátrica", icon: Tooth },
+    { name: "Alergista", icon: ThermometerSnowflake },
+    { name: "Odontología Pediátrica", icon: Sparkles },
     { name: "Ecografía", icon: Droplets },
-    { name: "Odontología", icon: Tooth },
+    { name: "Odontología", icon: Bone },
     { name: "Traumatología", icon: Bone },
     { name: "Diabetología", icon: Syringe },
-    { name: "Laboratorio", icon: Flask }
+    { name: "Laboratorio", icon: TestTube }
   ];
 
   return (
