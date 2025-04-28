@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { MapPin, Phone, Mail, Facebook, Instagram, MessageCircle } from 'lucide-react';
 
@@ -12,10 +11,6 @@ const Footer = () => {
             <div className="flex items-start mb-3">
               <MapPin className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
               <p>Ambrosetti 698, Caballito, CABA</p>
-            </div>
-            <div className="flex items-start mb-3">
-              <MapPin className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
-              <p>Av. Díaz Vélez 4792, Caballito, CABA</p>
             </div>
           </div>
           
