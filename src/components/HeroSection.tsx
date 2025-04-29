@@ -8,11 +8,14 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 space-y-6 text-center md:text-left mb-8 md:mb-0">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-            Bienvenido al Centro Médico Roca
+            Bienvenido <br /> Centro Médico Roca
           </h1>
           <h2 className="text-xl md:text-2xl text-gray-600">
             Atención inmediata con y sin turno — ¡También PAMI!
           </h2>
+          <h3 className="text-lg md:text-xl text-gray-500">
+            Todas las especialidades
+          </h3>
           <div className="pt-4">
             <a 
               href="https://wa.me/541127756496" 
