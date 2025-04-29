@@ -11,7 +11,7 @@ const HeroSection = () => {
             Bienvenido <br /> Centro Médico Roca
           </h1>
           <h2 className="text-xl md:text-2xl text-gray-600">
-            Atención inmediata con y sin turno — ¡También PAMI!
+            Atención inmediata con y sin turno — PAMI Próximamente
           </h2>
           <h3 className="text-lg md:text-xl text-gray-500">
             Todas las especialidades

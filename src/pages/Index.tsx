@@ -6,6 +6,7 @@ import AboutSection from '@/components/AboutSection';
 import LocationsSection from '@/components/LocationsSection';
 import ContactSection from '@/components/ContactSection';
 import SpecialtiesSection from '@/components/SpecialtiesSection';
+import AptoFisicoSection from '@/components/AptoFisicoSection'; // Import the new section
 import ReviewsSection from '@/components/ReviewsSection';
 import Footer from '@/components/Footer';
 
@@ -38,6 +39,7 @@ const Index = () => {
         <HeroSection />
         <AboutSection />
         <SpecialtiesSection />
+        <AptoFisicoSection /> {/* Add the new section here */}
         <ReviewsSection />
         <LocationsSection />
         <ContactSection />
