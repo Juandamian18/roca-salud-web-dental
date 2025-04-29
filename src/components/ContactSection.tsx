@@ -11,8 +11,8 @@ const ContactSection = () => {
             <div className="bg-primary rounded-full p-4 mb-4">
               <MessageCircle className="w-8 h-8 text-white" />
             </div>
-            <h2 className="text-2xl md:text-3xl font-semibold mb-2">TURNOS por WHATSAPP</h2>
-            <p className="text-gray-600 text-lg mb-6">Con y sin turno, ATENCIÓN INMEDIATA</p>
+            <h2 className="text-2xl md:text-3xl font-semibold mb-2">Solicitá tu Turno para Apto Físico</h2>
+            <p className="text-gray-600 text-lg mb-6">Reservá tu horario por WhatsApp de forma rápida y sencilla.</p>
             
             <a 
               href="https://wa.me/541127756496" 

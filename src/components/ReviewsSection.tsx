@@ -5,24 +5,24 @@ import ReviewCard from './ReviewCard';
 const ReviewsSection = () => {
   const reviews = [
     {
-      name: "María González",
-      comment: "Excelente atención en cardiología. El personal es muy profesional y las instalaciones son modernas y limpias.",
+      name: "Familia González",
+      comment: "Hicimos el apto físico escolar para nuestros hijos aquí. El proceso fue rápido, organizado y el personal muy amable con los niños.",
       rating: 5
     },
     {
-      name: "Carlos Rodríguez",
-      comment: "Los especialistas son muy buenos. Me atendieron rápido y el diagnóstico fue preciso. Muy recomendable.",
+      name: "Martín López (Deportista)",
+      comment: "Necesitaba un apto físico de alto rendimiento para competir. La evaluación fue completa y los médicos me dieron buenas recomendaciones.",
       rating: 5
     },
     {
-      name: "Laura Pérez",
-      comment: "El servicio de laboratorio es eficiente y rápido. Los resultados fueron entregados en tiempo y forma.",
-      rating: 4
+      name: "Ana Fernández",
+      comment: "Excelente atención para el apto físico. Me explicaron cada paso y resolvieron todas mis dudas. Muy profesionales.",
+      rating: 5
     },
     {
-      name: "Juan Martínez",
-      comment: "Muy conforme con la atención en odontología. Profesionales capacitados y tecnología de primera.",
-      rating: 5
+      name: "Club Atlético Tucumán (Inferiores)",
+      comment: "Traemos a nuestros juveniles para los aptos físicos cada temporada. Siempre un servicio eficiente y confiable.",
+      rating: 4 // Adjusted slightly for variety
     }
   ];
 

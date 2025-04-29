@@ -18,7 +18,7 @@ const LocationsSection = () => {
   return (
     <section className="py-12 md:py-20 bg-gray-50"> {/* Added a light background */}
       <div className="container mx-auto px-4">
-        <h2 className="section-title mb-10 md:mb-12">Nuestra Sede</h2>
+        <h2 className="section-title mb-10 md:mb-12">Dónde Realizar tu Apto Físico</h2>
         <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center">
 
           {/* Left Column: Details */}

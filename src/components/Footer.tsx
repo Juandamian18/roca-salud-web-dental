@@ -17,7 +17,7 @@ const Footer = () => {
             <p>Matricula: 149549</p>
           </div>
           <div>
-            <h4 className="text-xl font-semibold mb-4">Centro Médico Roca</h4>
+            <h4 className="text-xl font-semibold mb-4">Apto Físico Escolar y de Alto Rendimiento</h4>
             <div className="flex items-start mb-3">
               <MapPin className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
               <p>Ambrosetti 698, Caballito, CABA</p>
@@ -93,7 +93,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-700 pt-6 mt-6 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} Centro Médico Roca. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Apto Físico Escolar y de Alto Rendimiento. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

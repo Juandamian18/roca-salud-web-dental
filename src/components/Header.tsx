@@ -15,7 +15,7 @@ const Header = () => {
             className="h-12"
             loading="lazy"
           />
-          <span className="font-semibold text-xl hidden sm:block text-primary">Centro Médico Roca</span>
+          <span className="font-semibold text-lg hidden sm:block text-primary">Apto Fisico Escolar y de Alto rendimiento</span>
         </a>
 
         {/* Mobile menu button */}
@@ -30,7 +30,6 @@ const Header = () => {
         <nav className="hidden md:flex space-x-8">
           <a href="#inicio" className="text-gray-700 hover:text-primary font-medium">INICIO</a>
           <a href="#contacto" className="text-gray-700 hover:text-primary font-medium">CONTACTO</a>
-          <a href="#especialidades" className="text-gray-700 hover:text-primary font-medium">ESPECIALIDADES</a>
         </nav>
 
         {/* Mobile menu */}
@@ -49,13 +48,6 @@ const Header = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               CONTACTO
-            </a>
-            <a 
-              href="#especialidades" 
-              className="text-gray-700 hover:text-primary font-medium"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              ESPECIALIDADES
             </a>
           </div>
         )}

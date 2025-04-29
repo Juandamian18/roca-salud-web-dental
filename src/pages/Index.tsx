@@ -2,12 +2,13 @@
 import React, { useEffect } from 'react';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
-import AboutSection from '@/components/AboutSection';
+// import AboutSection from '@/components/AboutSection'; // Removed
 import LocationsSection from '@/components/LocationsSection';
 import ContactSection from '@/components/ContactSection';
-import SpecialtiesSection from '@/components/SpecialtiesSection';
-import AptoFisicoSection from '@/components/AptoFisicoSection'; // Import the new section
+// import SpecialtiesSection from '@/components/SpecialtiesSection'; // Removed
+// import AptoFisicoSection from '@/components/AptoFisicoSection'; // Removed
 import ReviewsSection from '@/components/ReviewsSection';
+import { ServicesSection } from '@/components/ServicesSection'; // Corrected import
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -37,9 +38,10 @@ const Index = () => {
       <Header />
       <main>
         <HeroSection />
-        <AboutSection />
-        <SpecialtiesSection />
-        <AptoFisicoSection /> {/* Add the new section here */}
+        <ServicesSection /> {/* Added this line */}
+        {/* <AboutSection /> */} {/* Removed */}
+        {/* <SpecialtiesSection /> */} {/* Removed */}
+        {/* <AptoFisicoSection /> */} {/* Removed */}
         <ReviewsSection />
         <LocationsSection />
         <ContactSection />

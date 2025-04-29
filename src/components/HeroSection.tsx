@@ -8,14 +8,14 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 space-y-6 text-center md:text-left mb-8 md:mb-0">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-            Bienvenido <br /> Centro Médico Roca
+            Apto Físico Escolar y de Alto Rendimiento
           </h1>
           <h2 className="text-xl md:text-2xl text-gray-600">
-            Atención inmediata con y sin turno — PAMI Próximamente
+            Realizamos Apto Físico Escolar, Competitivo y de Alto Rendimiento.
           </h2>
-          <h3 className="text-lg md:text-xl text-gray-500">
+          {/* <h3 className="text-lg md:text-xl text-gray-500">
             Todas las especialidades
-          </h3>
+          </h3> */}
           <div className="pt-4">
             <a 
               href="https://wa.me/541127756496" 
@@ -29,7 +29,7 @@ const HeroSection = () => {
         </div>
         <div className="md:w-1/2">
           <img 
-            src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+            src="https://images.unsplash.com/photo-1589953605483-a2964c38d415?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
             alt="Profesionales médicos en consultorio" 
             className="rounded-lg shadow-lg w-full h-auto object-cover"
             loading="lazy"
