@@ -5,12 +5,30 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white pt-12 pb-6">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+          <div>
+            <h4 className="text-xl font-semibold mb-4">Director Médico</h4>
+            <img 
+              src="/lovable-uploads/foto.jpg" 
+              alt="Dr. Francisco Lopez" 
+              className="w-16 h-16 rounded-full mb-2 object-cover" 
+            />
+            <p className="mb-1">Dr. Francisco Lopez</p>
+            <p>Matricula: 149549</p>
+          </div>
           <div>
             <h4 className="text-xl font-semibold mb-4">Centro Médico Roca</h4>
             <div className="flex items-start mb-3">
               <MapPin className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
               <p>Ambrosetti 698, Caballito, CABA</p>
+            </div>
+            <div className="flex items-start mb-3">
+              <MapPin className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
+              <div>
+                <p className="font-semibold">Internaciones</p>
+                <p>Clinica Roca Centenerio</p>
+                <p>Av. Diaz Velez 4792, Caballito</p>
+              </div>
             </div>
           </div>
           
