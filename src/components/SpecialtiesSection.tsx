@@ -1,69 +1,100 @@
 
 import React from 'react';
 import SpecialtyCard from './SpecialtyCard';
-import { Activity, Heart, Flower2, Stethoscope, RadioTower, ThermometerSnowflake, Sparkles, Droplets, Bone, Syringe, TestTube } from 'lucide-react';
+// Import Font Awesome icons
+import { 
+  faUserMd, faHeartPulse, faXRay, faFlaskVial, faDroplet, faEye, 
+  faSyringe, faBone, faTooth, faChild, faHeadSideVirus, faVenus, 
+  faWeightScale, faLeaf 
+} from '@fortawesome/free-solid-svg-icons';
 
 const SpecialtiesSection = () => {
+  // Updated specialties list with Font Awesome icons
   const specialties = [
     { 
       name: "Clínico",
-      icon: Activity,
-      description: "Atención médica integral para adultos, diagnóstico y tratamiento de enfermedades comunes."
+      icon: faUserMd,
+      description: "Atención médica integral para adultos."
     },
     { 
       name: "Cardiología",
-      icon: Heart,
-      description: "Diagnóstico y tratamiento de enfermedades del corazón y sistema circulatorio."
+      icon: faHeartPulse,
+      description: "Enfermedades del corazón y sistema circulatorio."
     },
     { 
-      name: "Terapia Alternativa",
-      icon: Flower2,
-      description: "Métodos naturales y holísticos para mejorar la salud y el bienestar."
+      name: "Cirugia Vascular y Cardiaca", // New
+      icon: faHeartPulse, // Reusing icon
+      description: "Tratamientos quirúrgicos cardiovasculares."
     },
     { 
-      name: "Urología",
-      icon: Stethoscope,
-      description: "Especialidad que trata las enfermedades del sistema urinario y reproductor masculino."
-    },
-    { 
-      name: "Radiografía",
-      icon: RadioTower,
-      description: "Imágenes diagnósticas para visualizar el interior del cuerpo."
-    },
-    { 
-      name: "Alergista",
-      icon: ThermometerSnowflake,
-      description: "Diagnóstico y tratamiento de alergias, asma y trastornos inmunológicos."
-    },
-    { 
-      name: "Odontología Pediátrica",
-      icon: Sparkles,
-      description: "Cuidado dental especializado para niños y adolescentes."
-    },
-    { 
-      name: "Ecografía",
-      icon: Droplets,
-      description: "Diagnóstico por imágenes mediante ultrasonido."
-    },
-    { 
-      name: "Odontología",
-      icon: Bone,
-      description: "Cuidado integral de la salud bucal y dental."
-    },
-    { 
-      name: "Traumatología",
-      icon: Bone,
-      description: "Tratamiento de lesiones y enfermedades del sistema músculo-esquelético."
-    },
-    { 
-      name: "Diabetología",
-      icon: Syringe,
-      description: "Control y tratamiento de la diabetes y trastornos metabólicos."
+      name: "Imagenes diagnosticas", // Updated name
+      icon: faXRay,
+      description: "Ecografía, Doppler, Tomografía, Rayos X, Resonancia Magnética."
     },
     { 
       name: "Laboratorio",
-      icon: TestTube,
-      description: "Análisis clínicos y estudios de laboratorio para diagnóstico médico."
+      icon: faFlaskVial,
+      description: "Análisis clínicos para diagnóstico médico."
+    },
+    { 
+      name: "Urologia",
+      icon: faDroplet,
+      description: "Enfermedades del sistema urinario y reproductor masculino."
+    },
+    { 
+      name: "Oftalmologia", // New
+      icon: faEye,
+      description: "Cuidado de la salud visual y enfermedades oculares."
+    },
+    { 
+      name: "Diabetologia",
+      icon: faSyringe,
+      description: "Control y tratamiento de la diabetes."
+    },
+    { 
+      name: "Traumatologia",
+      icon: faBone,
+      description: "Lesiones y enfermedades del sistema músculo-esquelético."
+    },
+    { 
+      name: "Odontologia y Ortodoncia", // Updated name
+      icon: faTooth,
+      description: "Salud bucal, dental y corrección de mordida."
+    },
+    { 
+      name: "Odontologia Pediatrica",
+      icon: faChild,
+      description: "Cuidado dental especializado para niños."
+    },
+    { 
+      name: "Gastroenterologia", // New
+      icon: faUserMd, // Using general medical icon
+      description: "Enfermedades del sistema digestivo."
+    },
+    { 
+      name: "Hemodinamia", // New
+      icon: faHeartPulse, // Reusing icon
+      description: "Estudio del movimiento de la sangre."
+    },
+    { 
+      name: "Tratamiento del Dolor", // New
+      icon: faHeadSideVirus, // Using related icon
+      description: "Manejo y alivio del dolor crónico y agudo."
+    },
+    { 
+      name: "Ginecologia", // New
+      icon: faVenus,
+      description: "Salud del sistema reproductor femenino."
+    },
+    { 
+      name: "Tratamiento de la obesidad", // New
+      icon: faWeightScale,
+      description: "Manejo integral del sobrepeso y la obesidad."
+    },
+    { 
+      name: "Alergista",
+      icon: faLeaf, // Using alternative icon
+      description: "Diagnóstico y tratamiento de alergias."
     }
   ];
 
@@ -76,7 +107,7 @@ const SpecialtiesSection = () => {
             <SpecialtyCard 
               key={index} 
               name={specialty.name} 
-              Icon={specialty.icon}
+              icon={specialty.icon} // Changed prop name from Icon to icon
               description={specialty.description}
             />
           ))}
