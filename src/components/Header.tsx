@@ -1,4 +1,4 @@
-
+  
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -27,9 +27,18 @@ const Header = () => {
         </button>
 
         {/* Desktop menu */}
-        <nav className="hidden md:flex space-x-8">
+        <nav className="hidden md:flex items-center space-x-8">
           <a href="#inicio" className="text-gray-700 hover:text-primary font-medium">INICIO</a>
+          <a href="#servicios" className="text-gray-700 hover:text-primary font-medium">SERVICIOS</a>
           <a href="#contacto" className="text-gray-700 hover:text-primary font-medium">CONTACTO</a>
+          <a 
+            href="https://wa.me/541127756496" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn-primary inline-block px-4 py-2 text-sm" // Adjusted padding and text size for nav
+          >
+            Reservá tu turno
+          </a>
         </nav>
 
         {/* Mobile menu */}
@@ -43,11 +52,27 @@ const Header = () => {
               INICIO
             </a>
             <a 
+              href="#servicios" 
+              className="text-gray-700 hover:text-primary font-medium"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              SERVICIOS
+            </a>
+            <a 
               href="#contacto" 
               className="text-gray-700 hover:text-primary font-medium"
               onClick={() => setIsMenuOpen(false)}
             >
               CONTACTO
+            </a>
+            <a 
+              href="https://wa.me/541127756496" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="btn-primary inline-block text-center mt-2 py-2" // Centered and with margin top
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Reservá tu turno
             </a>
           </div>
         )}

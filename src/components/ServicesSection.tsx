@@ -23,42 +23,42 @@ const ServiceItem: React.FC<ServiceItemProps> = ({ imageUrl, title, description 
 export const ServicesSection: React.FC = () => {
   const services = [
     {
-      imageUrl: '/servicios/Ortodoncia.jpeg',
+      imageUrl: '/placeholder.svg', // Replace with actual image path
       title: 'Ortodoncia',
       description: 'Tratamientos para corregir la alineación de los dientes y la mandíbula.',
     },
     {
-      imageUrl: '/servicios/Implantes.jpg',
+      imageUrl: '/placeholder.svg', // Replace with actual image path
       title: 'Implantes',
       description: 'Soluciones permanentes para reemplazar dientes perdidos.',
     },
     {
-      imageUrl: '/servicios/Tomógrafo-Dental.jpg',
+      imageUrl: '/placeholder.svg', // Replace with actual image path
       title: 'Tomógrafo Dental',
       description: 'Diagnóstico por imágenes avanzado para una planificación precisa del tratamiento.',
     },
     {
-      imageUrl: '/servicios/Panorámicas-3D.jpg',
+      imageUrl: '/placeholder.svg', // Replace with actual image path
       title: 'Panorámicas 3D',
       description: 'Imágenes tridimensionales detalladas de su estructura dental y maxilofacial.',
     },
     {
-      imageUrl: '/servicios/Prótesis-Dental.jpg',
+      imageUrl: '/placeholder.svg', // Replace with actual image path
       title: 'Prótesis Dental',
       description: 'Restauraciones dentales para reemplazar dientes ausentes y mejorar la función masticatoria.',
     },
     {
-      imageUrl: '/servicios/Blanqueamiento.jpg',
+      imageUrl: '/placeholder.svg', // Replace with actual image path
       title: 'Blanqueamiento',
       description: 'Tratamientos para aclarar el color de sus dientes y lograr una sonrisa más brillante.',
     },
     {
-      imageUrl: '/servicios/Endodoncia.webp',
+      imageUrl: '/placeholder.svg', // Replace with actual image path
       title: 'Endodoncia',
       description: 'Tratamiento de conductos para salvar dientes infectados o dañados.',
     },
     {
-      imageUrl: '/servicios/Cirugías.webp',
+      imageUrl: '/placeholder.svg', // Replace with actual image path
       title: 'Cirugías',
       description: 'Procedimientos quirúrgicos dentales para tratar diversas afecciones.',
     },
