@@ -1,6 +1,8 @@
 
 import React from 'react';
-import { Phone, Mail, MessageCircle } from 'lucide-react';
+import { Phone, Mail } from 'lucide-react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const ContactSection = () => {
   return (
@@ -9,7 +11,7 @@ const ContactSection = () => {
         <div className="max-w-3xl mx-auto bg-white rounded-lg shadow-card p-8">
           <div className="flex flex-col items-center text-center mb-8">
             <div className="bg-primary rounded-full p-4 mb-4">
-              <MessageCircle className="w-8 h-8 text-white" />
+              <FontAwesomeIcon icon={faWhatsapp} className="w-8 h-8 text-white" />
             </div>
             <h2 className="text-2xl md:text-3xl font-semibold mb-2">Solicitá tu Turno</h2>
             <p className="text-gray-600 text-lg mb-6">Reservá tu horario por WhatsApp de forma rápida y sencilla.</p>
@@ -20,7 +22,7 @@ const ContactSection = () => {
               rel="noopener noreferrer"
               className="btn-primary flex items-center justify-center gap-2 mb-8 w-full max-w-md"
             >
-              <MessageCircle size={20} /> Escribinos al 11-2775-6496
+              <FontAwesomeIcon icon={faWhatsapp} size="lg" /> Escribinos al 11-2775-6496
             </a>
           </div>
           
