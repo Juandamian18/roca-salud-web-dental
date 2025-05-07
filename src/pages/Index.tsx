@@ -7,10 +7,9 @@ import { ProcessSection } from "@/components/ProcessSection"; // Added import
 import LocationsSection from '@/components/LocationsSection';
 import ContactSection from '@/components/ContactSection';
 // import SpecialtiesSection from '@/components/SpecialtiesSection'; // Removed
-// import AptoFisicoSection from '@/components/AptoFisicoSection'; // Removed
+import DentalServicesSection from '@/components/DentalServicesSection'; // Added
 import ReviewsSection from '@/components/ReviewsSection';
 import { ServicesSection } from '@/components/ServicesSection'; // Corrected import
-import { FaqSection } from "@/components/FaqSection";
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -44,9 +43,8 @@ const Index = () => {
         <ProcessSection /> {/* Added ProcessSection */}
         {/* <AboutSection /> */} {/* Removed */}
         {/* <SpecialtiesSection /> */} {/* Removed */}
-        {/* <AptoFisicoSection /> */} {/* Removed */}
+        <DentalServicesSection /> {/* Added */}
         <ReviewsSection />
-        <FaqSection />
         <LocationsSection />
         <ContactSection />
       </main>

@@ -17,7 +17,7 @@ const Footer = () => {
             <p>Matricula: 149549</p>
           </div>
           <div>
-            <h4 className="text-xl font-semibold mb-4">Apto Físico Escolar y de Alto Rendimiento</h4>
+            <h4 className="text-xl font-semibold mb-4">Centro Dental Roca</h4>
             <div className="flex items-start mb-3">
               <MapPin className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
               <p>Ambrosetti 698, Caballito, CABA</p>
@@ -62,30 +62,30 @@ const Footer = () => {
             <div className="flex items-center mb-3">
               <Facebook className="w-5 h-5 mr-2" />
               <a 
-                href="https://www.facebook.com/centromedicorocacaba" 
+                href="https://www.facebook.com/centrodentalrocacaba" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:text-primary-200"
               >
-                centromedicorocacaba
+                centrodentalrocacaba
               </a>
             </div>
             <div className="flex items-center">
               <Instagram className="w-5 h-5 mr-2" />
               <a 
-                href="https://www.instagram.com/cmrocasaludok" 
+                href="https://www.instagram.com/centrodentalrocaok" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:text-primary-200"
               >
-                @cmrocasaludok
+                @centrodentalrocaok
               </a>
             </div>
           </div>
         </div>
         
         <div className="border-t border-gray-700 pt-6 mt-6 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} Apto Físico Escolar y de Alto Rendimiento. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Centro Dental Roca. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
