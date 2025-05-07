@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import { ProcessSection } from "@/components/ProcessSection"; // Added import
+import { DifferentiatorsSection } from "@/components/DifferentiatorsSection"; // Added import
 // import AboutSection from '@/components/AboutSection'; // Removed
 import LocationsSection from '@/components/LocationsSection';
 import ContactSection from '@/components/ContactSection';
@@ -39,6 +40,7 @@ const Index = () => {
       <Header />
       <main>
         <HeroSection />
+        <DifferentiatorsSection /> {/* Added this line */}
         <ServicesSection /> {/* Added this line */}
         <ProcessSection /> {/* Added ProcessSection */}
         {/* <AboutSection /> */} {/* Removed */}

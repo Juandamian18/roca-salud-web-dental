@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSchool, faMedal, faChartLine, faHeartPulse, IconDefinition } from '@fortawesome/free-solid-svg-icons';
+import { faTooth, faUserMd, faSmile, faBaby, IconDefinition } from '@fortawesome/free-solid-svg-icons'; // Updated icons
 import { Card, CardContent, CardHeader } from '@/components/ui/card'; // Import Card components
 
 interface ServiceItemProps {
@@ -29,24 +29,24 @@ export const ServicesSection: React.FC = () => {
   // Removed the explicit ServiceItemProps[] type annotation, TS can infer it
   const services = [
     {
-      icon: faSchool,
-      title: 'Apto Físico Escolar',
-      description: 'Evaluación médica requerida por las instituciones educativas para certificar que el alumno puede realizar actividad física.',
+      icon: faTooth,
+      title: 'Odontología General',
+      description: 'Consultas, limpiezas, obturaciones (empastes), extracciones simples y prevención de enfermedades bucales.',
     },
     {
-      icon: faMedal,
-      title: 'Apto Físico Competitivo',
-      description: 'Evaluación más completa para deportistas que participan en competencias, incluye electrocardiograma y análisis específicos.',
+      icon: faUserMd, // Using faUserMd as a placeholder for specialist
+      title: 'Ortodoncia',
+      description: 'Corrección de la posición de los dientes y maxilares para mejorar la estética y funcionalidad de tu sonrisa.',
     },
     {
-      icon: faChartLine,
-      title: 'Apto Alto Rendimiento',
-      description: 'Evaluación exhaustiva para atletas profesionales, incluye pruebas de esfuerzo, análisis de composición corporal y más.',
+      icon: faSmile, // Using faSmile for aesthetics
+      title: 'Estética Dental',
+      description: 'Blanqueamientos dentales, carillas, coronas y otros tratamientos para embellecer tu sonrisa.',
     },
     {
-      icon: faHeartPulse,
-      title: 'Control Cardiológico',
-      description: 'Control preventivo para deportistas de todas las edades que buscan cuidar su salud cardiovascular durante la actividad física.',
+      icon: faBaby, // Using faBaby for pediatric dentistry
+      title: 'Odontopediatría',
+      description: 'Atención dental especializada para bebés, niños y adolescentes, enfocada en la prevención y tratamiento temprano.',
     },
   ];
 
@@ -55,10 +55,10 @@ export const ServicesSection: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
-            Nuestros Servicios
+            Nuestros Servicios Odontológicos
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Ofrecemos diferentes tipos de certificados médicos adaptados a las necesidades de cada institución y nivel deportivo.
+            En Centro Dental Roca, te ofrecemos una atención odontológica integral y personalizada para cuidar de tu salud bucal y la de tu familia.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">

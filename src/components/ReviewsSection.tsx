@@ -5,24 +5,24 @@ import ReviewCard from './ReviewCard';
 const ReviewsSection = () => {
   const reviews = [
     {
-      name: "Familia González",
-      comment: "Hicimos el apto físico escolar para nuestros hijos aquí. El proceso fue rápido, organizado y el personal muy amable con los niños.",
+      name: "Laura Gómez",
+      comment: "Excelente atención en Centro Dental Roca. Me realicé una limpieza y blanqueamiento, ¡los resultados son increíbles! Muy profesionales y amables.",
       rating: 5
     },
     {
-      name: "Martín López (Deportista)",
-      comment: "Necesitaba un apto físico de alto rendimiento para competir. La evaluación fue completa y los médicos me dieron buenas recomendaciones.",
+      name: "Carlos Pérez",
+      comment: "Llevé a mis hijos para un control y el trato con los niños fue espectacular. El odontopediatra tiene mucha paciencia. ¡Recomendadísimo!",
       rating: 5
     },
     {
-      name: "Ana Fernández",
-      comment: "Excelente atención para el apto físico. Me explicaron cada paso y resolvieron todas mis dudas. Muy profesionales.",
+      name: "Sofía Rodríguez",
+      comment: "Tenía terror de ir al dentista, pero en Centro Dental Roca me sentí muy cómoda. Me explicaron todo el tratamiento de conducto y no sentí dolor.",
       rating: 5
     },
     {
-      name: "Club Atlético Tucumán (Inferiores)",
-      comment: "Traemos a nuestros juveniles para los aptos físicos cada temporada. Siempre un servicio eficiente y confiable.",
-      rating: 4 // Adjusted slightly for variety
+      name: "Javier Torres",
+      comment: "Muy satisfecho con la ortodoncia. El equipo es muy profesional y siempre puntuales con las citas. ¡Mi sonrisa cambió por completo!",
+      rating: 4
     }
   ];
 
