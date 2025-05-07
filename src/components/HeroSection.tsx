@@ -29,7 +29,7 @@ const HeroSection = () => {
         </div>
         <div className="md:w-1/2">
           <img 
-            src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+            src="https://images.unsplash.com/photo-1606811842243-af7e16970c1f?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
             alt="Sonrisa saludable y radiante" 
             className="rounded-lg shadow-lg w-full h-auto object-cover"
             loading="lazy"
