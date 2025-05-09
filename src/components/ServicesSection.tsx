@@ -62,6 +62,31 @@ export const ServicesSection: React.FC = () => {
       title: 'Cirugías',
       description: 'Procedimientos quirúrgicos dentales para tratar diversas afecciones.',
     },
+    {
+      imageUrl: '/servicios/Ortopedia-maxilar.webp',
+      title: 'Ortopedia maxilar',
+      description: 'Tratamientos para guiar el crecimiento y desarrollo de los maxilares en niños y adolescentes.',
+    },
+    {
+      imageUrl: '/servicios/Diseño-de-sonrisa.jpg',
+      title: 'Diseño de sonrisa',
+      description: 'Planificación y ejecución de tratamientos estéticos para lograr la sonrisa deseada.',
+    },
+    {
+      imageUrl: '/servicios/placa-de-bruxismo.jpg',
+      title: 'Placas de descanso',
+      description: 'Dispositivos para proteger los dientes del desgaste por bruxismo y aliviar la tensión muscular.',
+    },
+    {
+      imageUrl: '/servicios/botox.webp',
+      title: 'Botox',
+      description: 'Aplicación de toxina botulínica con fines terapéuticos y estéticos en odontología.',
+    },
+    {
+      imageUrl: '/servicios/bruxismo-tratamiento.jpg',
+      title: 'Tratamiento de bruxismo',
+      description: 'Soluciones para el rechinamiento o apretamiento involuntario de los dientes.',
+    },
   ];
 
   return (
