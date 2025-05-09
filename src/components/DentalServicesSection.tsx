@@ -12,7 +12,7 @@ const DentalServicesSection = () => {
               Odontología General y Especializada para toda la Familia
             </h2>
             <p className="text-lg text-gray-600">
-              En Centro Dental Roca, ofrecemos una amplia gama de servicios odontológicos para cuidar la salud bucal de niños, adolescentes y adultos. Contamos con especialistas en diversas áreas para brindarte una atención integral y personalizada.
+              En Dental Roca, ofrecemos una amplia gama de servicios odontológicos para cuidar la salud bucal de niños, adolescentes y adultos. Contamos con especialistas en diversas áreas para brindarte una atención integral y personalizada.
             </p>
             <a href="#contacto" className="inline-block mt-4"> {/* Wrap Button with <a> */}
               <Button size="lg"> {/* Removed asChild */}

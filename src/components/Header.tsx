@@ -11,11 +11,11 @@ const Header = () => {
         <a href="#inicio" className="flex items-center space-x-2">
           <img 
             src="/lovable-uploads/00c8997e-6f10-42a5-892e-ee0f278f783f.png" 
-            alt="Centro Dental Roca Logo" 
+            alt="Dental Roca Logo" 
             className="h-12"
             loading="lazy"
           />
-          <span className="font-semibold text-lg hidden sm:block text-primary">Centro Dental Roca</span>
+          <span className="font-semibold text-lg hidden sm:block text-primary">Dental Roca</span>
         </a>
 
         {/* Mobile menu button */}

@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 space-y-6 text-center md:text-left mb-8 md:mb-0">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-            Centro Dental Roca: Tu Sonrisa, Nuestra Prioridad
+            Dental Roca: Tu Sonrisa, Nuestra Prioridad
           </h1>
           <h2 className="text-xl md:text-2xl text-gray-600">
             Ofrecemos servicios odontológicos integrales para toda la familia.
